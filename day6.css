@@ -5,3 +5,13 @@
 body{
     background-color: rgb(255, 1, 234);
 }
+.box{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    border:3px solid black;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 

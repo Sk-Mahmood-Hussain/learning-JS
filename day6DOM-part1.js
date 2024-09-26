@@ -10,7 +10,7 @@ console.log(document.body)   //Used to print the html body part
 // document.body.style.background = ("green");   //This will make body part of the page into green
 
 // Dom manupulation 
-/*Selecting with ID 
+/*Selecting with ID  
 document.getElementById("myld")
 */
 let heads = document.getElementById("heads");
