@@ -88,7 +88,3 @@ mode.addEventListener("click", () => {
     }
     console.log(curmode);
 });
-
-
-
-
