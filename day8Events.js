@@ -57,16 +57,16 @@ mul.onclick = (e) => {
 //node.eventlistener(event,callbackfunction)
     
 let bttn = document.querySelector("#btn5");
-bttn.addEventListener("click", (evt) =>{
+bttn.addEventListener("mouseover", (evt) =>{
     console.log("addEventlistener - 1")
 });
 bttn.addEventListener("click", () =>{
     console.log("addEventlistener - 2")
 });
-bttn.addEventListener("click", () =>{
+bttn.addEventListener("dblclick", () =>{
     console.log("addEventlistener - 3")
 });
-bttn.addEventListener("click", () =>{
+bttn.addEventListener("dblclick", () =>{
     console.log("addEventlistener - 4")
 });
 //Practise project........................
@@ -87,4 +87,13 @@ mode.addEventListener("click", () => {
         // document.querySelector("body").style.backgroundColor ="white";
     }
     console.log(curmode);
+}); 
+
+//practise by me
+let butn = document.querySelector("#btn6");
+butn.addEventListener("click" , ()=> {
+    console.log("thik hun bhai")
+});
+butn.addEventListener("dblclick" , () => {
+    console.log("thik hun bhai")
 });
